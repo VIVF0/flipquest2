@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    background-color: #3cc47c;
+}
+.cont{
+    margin-top:120px;
+    width: 80%;
+    color: black;
+}
+a.lpag:link, a.lpag:visited {
+	text-decoration: none;
+    color: black;
+}
+a.lpag:hover{
+    text-decoration: underline;
+    color: white;
+}
+a.lpag:active{
+    text-decoration: none;
+    color: blue;
+}
+.sobre{
+    width: 60%;
+    padding: 100px;
+    text-align: justify;
+}
+.imgunisal{
+    position: static;
+    float:right;
+    margin-top: -300px;
+    margin-right:-100px;
+}
+.art{
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+.artigos{
+    width: 80%;
+    padding: 100px;
+    text-align: justify;
+}
+.img{
+    position: static;
+    float: left;
+    margin-right: 10px;
+}
+/*MENU DAS PAGINAS:*/
+a.lpag1{
+	text-decoration: none;
+    color: white;
+}
+a.lpag1:hover{
+    text-decoration: underline;
+    color: black;
+}
+a.lpag1:active{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-size:20px;
+}
+.menu{
+    position:absolute;
+    right:100px;
+    top: 25px;
+}
+.logo{
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.cmenu{
+    position: fixed; 
+    top: 0px; 
+    left: 00px; 
+    right: 00px;
+    background-color:#1e392a; 
+    width: 100%;
+    padding: 5px 0;
+}

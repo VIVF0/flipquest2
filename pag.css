@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size:18px;
+    background-color:#3cc47c;
+}
+li{
+    margin-left: 50px;;
+    margin-top:10px;
+}
+.texto{
+    margin-top:100px;
+    margin-left:100px;
+    margin-right:100px;
+    width: 80%;
+}
+a.lpag:link, a.lpag:visited {
+	text-decoration: none;
+    color:red;
+}
+a.lpag:hover{
+    text-decoration: underline;
+    color: white;
+}
+a.lpag:active{
+    text-decoration: none;
+    color: red;
+}
+/*MENU:*/
+/*MENU DAS PAGINAS:*/
+a.lpag1{
+	text-decoration: none;
+    color: white;
+}
+a.lpag1:hover{
+    text-decoration: underline;
+    color: black;
+}
+a.lpag1:active{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-size:20px;
+}
+.menu{
+    position:absolute;
+    right:100px;
+    top: 25px;
+}
+.logo{
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.cmenu{
+    position: fixed; 
+    top: 0px; 
+    left: 00px; 
+    right: 00px;
+    background-color:#1e392a; 
+    width: 100%;
+    padding: 5px 0;
+}
