@@ -30,6 +30,9 @@ a.lpag:active{
     text-decoration: none;
     color: red;
 }
+.flipflop{
+    margin-right: 40px;
+}
 /*MENU:*/
 /*MENU DAS PAGINAS:*/
 a.lpag1{
@@ -44,10 +47,10 @@ a.lpag1:active{
     text-decoration: none;
     color: white;
 }
-ul{
+.coluna{
     list-style: none;
 }
-li{
+.lista{
     display: inline-block;
     margin-right: 40px;
     margin-top: 10px;
