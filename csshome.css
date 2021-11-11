@@ -10,7 +10,7 @@ body{
 }
 .cont{
     margin-top:120px;
-    width: 80%;
+    width: 90%;
     color: white;
 }
 a.lpag:link, a.lpag:visited {
@@ -34,7 +34,7 @@ a.lpag:active{
     position: static;
     float:right;
     margin-top: -300px;
-    margin-right:-100px;
+    margin-right:30px;
 }
 .art{
     margin-left: 300px;
@@ -63,10 +63,10 @@ a.lpag1:active{
     text-decoration: none;
     color: black;
 }
-ul{
+.coluna{
     list-style: none;
 }
-li{
+.lista{
     display: inline-block;
     margin-right: 40px;
     margin-top: 10px;
